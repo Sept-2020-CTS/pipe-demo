@@ -1,0 +1,26 @@
+Price is {{price | currency : 'CAD' : "symbol"}}
+
+<br><br>
+
+Date is full date {{dateVal | date : 'fullDate'}}<br>
+
+Date is {{dateVal | date : 'shortDate'}}<br>
+
+Date is {{dateVal | date : 'shortTime'}}<br>
+
+Date is {{dateVal | date : 'd/M/y'}}
+
+<br><br>
+
+Value of Pie is {{pie | number : '1.2-3'}}<br>
+Value of Pie is {{pie | number : '1.0-4'}}<br>
+
+<br><br>
+
+Json val is {{jsonVal | json}}
+
+<br><br>
+
+Name is {{name | lowercase | uppercase}}
+
+[(name | lowercase) | uppercase]
